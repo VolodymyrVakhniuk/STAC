@@ -6,4 +6,4 @@ In existing live-camera surveillance or traffic monitoring systems, multiple geo
  
 We propose an efficient cross-cameras surveillance system called, STAC, that leverages spatio-temporal associations between multiple cameras to provide real-time analytics and inference under constrained network environments. STAC is built using the proposed omni-scale feature learning people reidentification (reid) algorithm that allows accurate detection, tracking and re-identification of people across cameras using the spatio-temporal characteristics of video frames. We integrate STAC with frame filtering and state-of-the-art compression to remove redundant information from cross-camera frames, optimizing video transmission cost while maintaining high accuracy for real-time query inference. We found that our implementation was much faster inference-wise than an established baseline producing superior results when it came to association (mapping detected people across camera streams).
 
-![alt_text](https://github.com/VolodymyrVakhniuk/STAC/blob/main/STAC.png)
+<img src="https://github.com/VolodymyrVakhniuk/STAC/blob/main/STAC.png" width="400" height="400">
